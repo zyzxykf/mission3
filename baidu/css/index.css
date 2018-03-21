@@ -1,0 +1,389 @@
+html,body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font: 12px arial;
+}
+
+.wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+.ul {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 19px 0 5px;
+	padding: 0 96px 0 0;
+}
+
+.mnav {
+	float: left;
+}
+
+.ul a.pf {
+	display: inline-block;
+	float: left;
+	color: #333;
+	font-size: 13px;
+	line-height: 24px;
+	margin-left: 20px;
+}
+
+.ul a.bri {
+	position: absolute;
+	right: 10px;
+	width: 60px;
+	font-size: 13px;
+	line-height: 24px;
+	color: #ffffff;
+	background: #38f;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+}
+
+.ul a.lb {
+	display: inline-block;
+	color: #333;
+	font-size: 13px;
+	line-height: 24px;
+	margin-left: 20px;
+	float: left;
+}
+
+.ul a.mnav {
+	display: inline-block;
+	color: #333;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 24px;
+	float: left;
+	margin-left: 20px;
+}
+
+.ul a.lb:hover, .ul a.mnav:hover {
+	color: #00c;
+}
+
+.pfmenu {
+	position: absolute;
+	top: 48px;
+	right: 72px;
+	width: 70px;
+	border: 1px solid #d1d1d1;
+	-webkit-box-shadow: 1px 1px 5px #d1d1d1;
+}
+
+.pfmenu a {
+	display: block;
+	font-size: 12px;
+	line-height: 26px;
+	color: #333;
+	text-decoration: none;
+	margin: 0;
+	padding: 0 9px;
+}
+
+.pfmenu a:hover {
+    background: #38f;
+    text-decoration: none;
+    color: #fff;
+}
+
+.pfmenu .bdnuarrow {
+	width: 0px;
+	height: 0px;
+	background: #000000;
+	position: absolute;
+	top: -10px;
+	left: 50%;
+	margin-left: -5px;
+}
+
+.pfmenu .bdnuarrow em, .pfmenu .bdnuarrow i {
+	display: block;
+	height: 0;
+	width: 0;
+	position: absolute;
+	border: 5px solid transparent;
+	
+	border-style: dashed dashed solid;
+}
+
+.pfmenu .bdnuarrow em {
+	border-bottom-color: #d8d8d8;
+	top: -1px;
+}
+
+.pfmenu .bdnuarrow i {
+    border-bottom-color: #fff;
+    top: 0;
+}
+
+.ul a.pf:hover {
+	color: #00c;
+}
+
+.brimenu-wrapper {
+	width: 85px;
+	height: 100%;
+	border-left: 1px solid #e7e7e7;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #f9f9f9;
+}
+
+.brimenu-link-title {
+	width: 66px;
+	height: 43px;
+	line-height: 43px;
+	font-size: 13px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 9px;
+	border-bottom: #f0f0f0 1px solid;
+	cursor: default;
+}
+
+.brimenu--link-wrapper {
+	position: relative;
+}
+
+.brimenu-container {
+	height: 872px;
+}
+
+.brimenu-wrapper .brimenu-link .brimenu-content a {
+	display: block;
+	width: 66px;
+	height: 76px;
+	margin: 0px auto;
+	border-bottom: #f0f0f0 1px solid;
+	color: #666;
+	text-decoration: none;
+	text-align: center;
+
+}
+
+.brimenu-wrapper .brimenu-link .brimenu-content span {
+	display: block;
+	height: 36px;
+	margin: 10px auto 5px;
+	background: url("../img/bdbri_icons_0a62ce1.png") no-repeat;
+	cursor: pointer;
+}
+
+.brimenu-wrapper .brimenu-link .brimenu-content span.bdbriimgitem_3 {
+	width: 40px;
+	background-position: -72px 0;
+}
+
+.brimenu-wrapper .brimenu-link .brimenu-content span.bdbriimgitem_4 {
+	width: 36px;
+	background-position: -112px 0;
+}
+
+.brimenu-wrapper .brimenu-link .brimenu-content span.bdbriimgitem_2 {
+	width: 36px;
+	background-position: -36px 0;
+}
+
+.brimenu-wrapper .brimenu-link .brimenu-content span.bdbriimgitem_5 {
+	width: 36px;
+	background-position: -148px 0;
+}
+
+.brimenu-wrapper .brimenu-link .brimenu-content span.bdbriimgitem_6 {
+	width: 36px;
+	background-position: -184px 0;
+}
+
+.brimenu-wrapper .brimenu-link .brimenu-content .bdbrievenmore {
+	width: 85px;
+	height: 33px;
+	margin-top: 15px;
+}
+
+.s_form {
+	position: relative;
+	top: 38.2%;
+	text-align: center;
+}
+
+.s_form_wrapper {
+	position: relative;
+	top: -191px;
+}
+
+.s_form .fm {
+	margin: 22px auto 0;
+	width: 641px;
+	text-align: left;
+}
+
+form {
+	position: relative;
+}
+
+.s_ipt_wap {
+	display: inline-block;
+	height: 34px;
+	width: 539px;
+	border: 1px solid #b6b6b6;
+	border-color: #b8b8b8 transparent #ccc #b8b8b8;
+	background: #fff;
+	margin-right: 0px;
+	border-right-width: 0px;
+	position: relative;
+}
+
+.s_ipt_wap .s_ipt-btn {
+	position: absolute;
+	right: 11px;
+	top: 50%;
+	margin-top: -8px;
+	height: 16px;
+	width: 18px;
+	background: #ffffff url("../img/camera_new_5606e8f.png") no-repeat;
+}
+
+.s_ipt_wap:hover, .s_ipt_wr.ipthover {
+    border-color: #999 transparent #b3b3b3 #999;
+}
+
+.s_ipt-btn:hover {
+	background-position: 0 -20px;
+}
+
+.s_ipt_wap input {
+	width: 500px;
+}
+
+.s_ipt_wap .s_ipt {
+	position: relative;
+	height: 22px;
+	margin: 6px 0 0 7px;
+	padding: 0px;
+	border: 0;
+	background: transparent;
+	outline: 0;
+	font: 16px/18px arial;
+}
+
+.s_ipt_wap.iptfocus {
+    border-color: #4791ff transparent #4791ff #4791ff;
+}
+
+.s_btn_wap {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.s_btn {
+	width: 100px;
+	height: 36px;
+	color: #ffffff;
+	font-size: 15px;
+	letter-spacing: 1px;
+	background: #3385ff;
+	outline: medium;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+	border: 0px;
+	padding: 0px;
+	border-bottom: 1px solid #2d78f4;
+}
+
+.s_btn.btnhover {
+    background: #317ef3;
+    border-bottom: 1px solid #2868c8;
+    box-shadow: 1px 1px 1px #ccc;
+}
+
+.qrcodeCon {
+	text-align: center;
+	position: absolute;
+	bottom: 140px;
+	height: 60px;
+	width: 100%;
+}
+
+.qrcode-item {
+	display: inline-block;
+}
+
+.qrcode-item .qrcode-img {
+	width: 60px;
+	height: 60px;
+	background: url("../img/zbios_efde696.png") 0 0 no-repeat;
+}
+
+.qrcode-item .qrcode-text {
+	color: #666;
+	line-height: 23px;
+	margin: 3px 0 0 5px;
+}
+
+.qrcode-item .qrcode-text p {
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+	text-align: left;
+}
+
+.ftCon {
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 47px;
+}
+
+.ftCon-wrapper {
+	text-align: center;
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.ftCon-text, .ftCon-text a {
+	line-height: 22px;
+	position: relative;
+    top: -2px;
+    color: #999;
+}
+
+.ftConw a {
+	margin-left: 25px;
+}
+
+.ftConw #setf {
+	margin-left: 0px;
+}
+
+.c-icon-icrlogo {
+	width: 14px;
+	height: 17px;
+	display: inline-block;
+	background: url("../img/icons_5859e57.png") no-repeat;
+	background-position: -600px -96px;
+	position: relative;
+	top: 3px;
+}
+
+.c-icon-jgwablogo {
+	width: 14px;
+	height: 17px;
+	display: inline-block;
+	background: url("../img/icons_5859e57.png") no-repeat;
+	background-position: -623px -96px;
+	position: relative;
+	top: 3px;
+}
+
